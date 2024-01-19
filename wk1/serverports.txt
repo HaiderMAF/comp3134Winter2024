@@ -1,0 +1,43 @@
+1) What is the definition of server port?
+
+The answer is :
+Server port are the endpoints of a network. This is how we are able to access specific websites. 
+The server port of Amazon from the states and Amazon in Canada would be different, as both websites would only cater to each of their demographics needs and wants.
+A server port is what allows the client and the server to exchange information with each other. 
+The values of the ports are unique as well since a .ca, or a .com site would both be running on different ports to avoid any conflicts.
+
+2) What is server port range?
+
+The answer is:
+A server port range is just the actual range of which server ports range from 0 to 65536.
+Some server ports have restricted access and some are already taken up by major companies.
+
+3) How many bits does number above represent?
+
+The the port numbers which are ranging from 0 to 65536 represent 16-bit.
+
+4) State 10 common server ports
+ 
+Port 80: HTTP port.
+Port 53: Domain name system port.
+Port 20 and 21: File transfer protocol ports. Between client and server.
+Port 22: Secure shell. An SSH port
+Port 179:Border Gateway Protocol. For large networks that make up the internet.
+Port 443: HTTPS. Encrypter version of HTTP.
+Port 500: A port which represents Internet Security Association and Key Management Protocol (ISAKMP)
+Port 587: A modern and secure SMTP which uses encryption
+Port 3389: Remote Desktop Protocol.
+
+
+
+
+
+_______________________________________________
+Explanation(s)
+_______________________________________________
+bits	5		4		3		2		1
+max vals	32		16		8		4		2
+
+Max vals shows the maximum number of that can represented by the bits. 
+
+2 ^ N 
