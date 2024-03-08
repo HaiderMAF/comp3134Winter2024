@@ -1,0 +1,78 @@
+Command: tcpdump -i eth0 -c 10 udp
+Output: root@comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01:~# tcpdump -i eth0 -c 10 udp
+	tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+	listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+	19:02:01.156116 IP bras-base-orlnon0609w-grc-51-74-12-24-178.dsl.bell.ca.54146 > comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.51820: UDP, length 204
+	19:02:01.199251 IP comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.53474 > 67.207.67.3.domain: 61173+ [1au] PTR? 34.225.128.178.in-addr.arpa. (56)
+	19:02:01.200982 IP 67.207.67.3.domain > comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.53474: 61173 NXDomain 0/1/1 (123)
+	19:02:01.201122 IP comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.53474 > 67.207.67.3.domain: 61173+ PTR? 34.225.128.178.in-addr.arpa. (45)
+	19:02:01.201428 IP 67.207.67.3.domain > comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.53474: 61173 NXDomain 0/1/0 (112)
+	19:02:01.202046 IP comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.45384 > 67.207.67.3.domain: 60857+ [1au] PTR? 178.24.12.74.in-addr.arpa. (54)
+	19:02:01.203134 IP comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.38185 > 67.207.67.3.domain: 24023+ [1au] PTR? 178.24.12.74.in-addr.arpa. (54)
+	19:02:01.217110 IP 67.207.67.3.domain > comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.38185: 24023 1/0/1 PTR bras-base-orlnon0609w-grc-51-74-12-24-178.dsl.bell.ca. (121)
+	19:02:01.219710 IP 67.207.67.3.domain > comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.45384: 60857 1/0/1 PTR bras-base-orlnon0609w-grc-51-74-12-24-178.dsl.bell.ca. (121)
+	19:02:01.303239 IP comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.57775 > 67.207.67.3.domain: 39339+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+	10 packets captured
+	17 packets received by filter
+	0 packets dropped by kernel
+Details: 
+	Packet 1
+	source host:bras-base-orlnon0609
+	Source port:54146
+	destination host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1
+	Destination port:51820
+
+	Packet 2
+	source host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Source port:53474
+	destination host:67.207.67.3
+	Destination port:domain(53)
+
+	Packet 3
+	source host:67.207.67.3
+	Source port:domain(53)
+	destination host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Destination port:54474
+
+	Packet 4
+	source host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Source port:53474
+	destination host:67.207.67.3
+	Destination port:domain(53)
+
+	Packet 5
+	source host:67.207.67.3
+	Source port:domain(53)
+	destination host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Destination port:53474
+
+	Packet 6
+	source host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Source port:45384
+	destination host:67.207.67.3
+	Destination port:domain(53)
+
+	Packet 7
+	source host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Source port:38185
+	destination host:67.207.67.3
+	Destination port:domain(port)
+
+	Packet 8
+	source host:67.207.67.3
+	Source port:domain(53)
+	destination host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Destination port:38185
+
+	Packet 9
+	source host:67.207.67.3
+	Source port:domain(53)
+	destination host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Destination port:45384
+	
+	Packet 10
+	source host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Source port:57775
+	destination host:67.207.67.3
+	Destination port:domain(53)
+	

@@ -1,0 +1,74 @@
+command:tcpdump -i eth0 10'tcp port 80'
+
+output: 20:37:30.571221 IP comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.ssh > d72-39-69-166.home1.cgocable.net.56978: Flags [P.], seq 3257842615:3257842667, ack 3128464381, win 501, length 52
+	20:37:30.573057 IP comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.ssh > d72-39-69-166.home1.cgocable.net.56978: Flags [P.], seq 52:160, ack 1, win 501, length 108
+	20:37:30.573143 IP comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.ssh > d72-39-69-166.home1.cgocable.net.56978: Flags [P.], seq 160:316, ack 1, win 501, length 156
+	20:37:30.573212 IP comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.ssh > d72-39-69-166.home1.cgocable.net.56978: Flags [P.], seq 316:384, ack 1, win 501, length 68
+	20:37:30.573266 IP comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.ssh > d72-39-69-166.home1.cgocable.net.56978: Flags [P.], seq 384:420, ack 1, win 501, length 36
+	20:37:30.590744 IP d72-39-69-166.home1.cgocable.net.56978 > comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.ssh: Flags [.], ack 420, win 513, length 0
+	20:37:30.671562 IP comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.42030 > 67.207.67.3.domain: 25262+ [1au] PTR? 166.69.39.72.in-addr.arpa. (54)
+	20:37:30.671936 IP comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.48566 > 67.207.67.3.domain: 44696+ [1au] PTR? 34.225.128.178.in-addr.arpa. (56)
+	20:37:30.672994 IP 67.207.67.3.domain > comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.42030: 25262 1/0/1 PTR d72-39-69-166.home1.cgocable.net. (100)
+	20:37:30.687979 IP 67.207.67.3.domain > comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01.48566: 44696 NXDomain 0/1/1 (123)
+
+
+Details:
+	Packet 1
+	source host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Source port:ssh
+	destination host:d72-39-69-166.home1.cgocable.net
+	Destination port:56978
+
+	Packet 2
+	source host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Source port:ssh
+	destination host:d72-39-69-166.home1.cgocable.net
+	Destination port:56978
+
+	Packet 3
+	source host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Source port:ssh
+	destination host:d72-39-69-166.home1.cgocable.net
+	Destination port:56978
+
+	Packet 4
+	source host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Source port:ssh
+	destination host:d72-39-69-166.home1.cgocable.net
+	Destination port:56978
+
+	Packet 5
+	source host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Source port:ssh
+	destination host:d72-39-69-166.home1.cgocable.net
+	Destination port:56978
+
+	Packet 6
+	source host:d72-39-69-166.home1.cgocable.net
+	Source port:56978
+	destination host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Destination port:ssh
+
+	Packet 7
+	source host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Source port:42030
+	destination host:67.207.67.3
+	Destination port:domain(53)
+
+	Packet 8
+	source host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Source port:48566
+	destination host:67.207.67.3
+	Destination port:domain(53)
+
+	Packet 9
+	source host:67.207.67.3
+	Source port:domain(53)
+	destination host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Destination port:42030
+
+	Packet 10
+	source host:67.207.67.3
+	Source port:domain(53)
+	destination host:comp3134-lamponubuntu2204-s-2vcpu-4gb-tor1-01
+	Destination port:48566
