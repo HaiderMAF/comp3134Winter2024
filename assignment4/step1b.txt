@@ -1,0 +1,1 @@
+query string used: ?user_input=<script>alert('Hello from the query string!');</script>

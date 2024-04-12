@@ -1,0 +1,6 @@
+Welcome!
+<script>document.body.style.backgroundColor = "lightblue";</script>
+<?php phpinfo(); ?>
+This is quite interesting
+School is fun
+The eclipse was a very rare and amazing sight to see
